@@ -1,10 +1,8 @@
-import { Box } from '@react-three/drei';
 import React from 'react';
+import { Particles } from './particles';
 
 export const App = () => {
   return (
-    <Box>
-      <meshNormalMaterial />
-    </Box>
+    <Particles />
   )
 }

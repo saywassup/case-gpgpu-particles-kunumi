@@ -11,7 +11,7 @@ export function Case() {
           precision: 'highp',
           powerPreference: 'high-performance',
           antialias: true,
-          alpha: false,
+          alpha: true,
         }}
         dpr={[1, 2]}
         camera={{ fov: 45, near: 0.001, far: 1000 }}
